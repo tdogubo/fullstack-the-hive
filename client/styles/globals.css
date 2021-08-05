@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
+
+.nav {
+  background: transparent;
+}
+.nav-scrolled {
+  background: rgb(165, 121, 10);
+}
+.welcome {
+  background-image: url("../assets/bridge_night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.header {
+  font-family: "Berkshire-Swash", "Ribeye", cursive;
+}
+
+.article-header {
+  font-family: "Rye", cursive;
+  font-size: x-large;
+}
+
+
